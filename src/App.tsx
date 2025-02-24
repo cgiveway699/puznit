@@ -4,16 +4,17 @@ import Two from './assets/two.jpeg'
 import Three from './assets/three.jpeg'
 
 import { useState } from "react";
+import { useNavigate } from 'react-router';
 
 
 function App() {
-
+const navigate = useNavigate()
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => {
     setIsModalOpen(true);
     setTimeout(() => {
-      window.location.href = "/instagram";
+      navigate('/instagram')
     }, 1500);
   };
 
