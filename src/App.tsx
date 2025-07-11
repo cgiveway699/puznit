@@ -22,7 +22,7 @@ const navigate = useNavigate()
     <main className='flex items-center justify-center w-screen flex-col'>
       <div className="wrapper">
         <header>
-          <center><img src="https://cdn-icons-png.flaticon.com/512/927/927295.png" style={{ width: '9%' }} alt="Vote" />Vote Your Favourite Tattoo Artist!</center>
+          <center><img src="https://cdn-icons-png.flaticon.com/512/927/927295.png" style={{ width: '9%' }} alt="Vote" />Vote Your Favourite Kitchen!</center>
         </header>
         <div className="poll-area" id="hidden">
           <input type="checkbox" name="poll" id="opt-1" />
@@ -34,7 +34,7 @@ const navigate = useNavigate()
             <div className="row">
               <div className="column">
                 <span className="circle"></span>
-                <span className="text">Powelltattoos</span>
+                <span className="text">oliskitchenhawaii</span>
               </div>
               <span className="percent">36%</span>
             </div>
@@ -46,7 +46,7 @@ const navigate = useNavigate()
             <div className="row">
               <div className="column">
                 <span className="circle"></span>
-                <span className="text">Dangilsdorf</span>
+                <span className="text">thepizzapresspearlcity</span>
               </div>
               <span className="percent">31%</span>
             </div>
@@ -58,7 +58,7 @@ const navigate = useNavigate()
             <div className="row">
               <div className="column">
                 <span className="circle"></span>
-                <span className="text">Atlastattoo</span>
+                <span className="text">Cucina Moon Hawaii</span>
               </div>
               <span className="percent">14%</span>
             </div>
@@ -70,7 +70,7 @@ const navigate = useNavigate()
             <div className="row">
               <div className="column">
                 <span className="circle"></span>
-                <span className="text">Scapegoat_tattoo</span>
+                <span className="text">85°C Bakery Cafe Hawaii</span>
               </div>
               <span className="percent">19%</span>
             </div>
