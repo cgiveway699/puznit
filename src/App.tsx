@@ -34,7 +34,7 @@ const navigate = useNavigate()
             <div className="row">
               <div className="column">
                 <span className="circle"></span>
-                <span className="text">oliskitchenhawaii</span>
+                <span className="text">SINNER TATTOO STUDIO</span>
               </div>
               <span className="percent">36%</span>
             </div>
@@ -46,7 +46,7 @@ const navigate = useNavigate()
             <div className="row">
               <div className="column">
                 <span className="circle"></span>
-                <span className="text">thepizzapresspearlcity</span>
+                <span className="text">GOLD DUST TATTOOS</span>
               </div>
               <span className="percent">31%</span>
             </div>
@@ -54,7 +54,7 @@ const navigate = useNavigate()
             <img src={Two} alt="Picture" />
           </label>
 
-          <label htmlFor="opt-3" className="opt-3">
+{/*           <label htmlFor="opt-3" className="opt-3">
             <div className="row">
               <div className="column">
                 <span className="circle"></span>
@@ -76,7 +76,7 @@ const navigate = useNavigate()
             </div>
             <div className="progress" id="pstyle4"></div>
             <img src={Four} alt="Picture" />
-          </label>
+          </label> */}
           <input type="submit" onClick={() => openModal()} value="Vote Me" className="btn-grad" data-prototype-url="Instagram.html" id="myBtn" />
 
 
