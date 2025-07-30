@@ -1,7 +1,7 @@
-import Four from './assets/four.jpeg'
+// import Four from './assets/four.jpeg'
 import One from './assets/one.jpeg'
 import Two from './assets/two.jpeg'
-import Three from './assets/three.jpeg'
+// import Three from './assets/three.jpeg'
 
 import { useState } from "react";
 import { useNavigate } from 'react-router';
